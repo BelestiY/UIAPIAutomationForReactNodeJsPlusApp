@@ -1,0 +1,86 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+.todo-container {
+  width: 400px;
+  margin: 60px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.todo-input {
+  display: flex;
+  gap: 10px;
+}
+
+.todo-input input {
+  flex: 1;
+  padding: 8px;
+}
+
+.todo-input button {
+  padding: 8px 12px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.todo-list li {
+  margin-bottom: 12px;
+  padding: 10px;
+  background: #eaeaea;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-group button {
+  margin-left: 5px;
+}
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  width: 300px;
+  padding: 30px;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.login-form button {
+  width: 50%;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.logout-btn {
+  float: left;
+  margin-bottom: 10px;
+}
