@@ -77,8 +77,10 @@ mvn clean test -Dcucumber.filter.tags="@api" -Dtest=runner.ApiTestRunner
 mvn clean test
 
 ## Test Result Snapshots
+- API
 <img width="1692" height="523" alt="UI Test Result" src="https://github.com/user-attachments/assets/6298e8df-745f-4f89-994b-f874e4283f2a" />
 
+- UI
 <img width="989" height="890" alt="API Test Result" src="https://github.com/user-attachments/assets/733c0556-cf16-44ca-8bcb-6b5a98c0bac2" />
 
 ## Assumptions and Limitations
