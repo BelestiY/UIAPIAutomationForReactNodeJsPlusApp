@@ -54,7 +54,7 @@ The goal is to provide a full-stack sample application with end-to-end functiona
 ## Setup Instructions
 
 1. **Clone the repository:**
-   git clone git@github.com:YourUsername/YourRepoName.git
+   git clone git@github.com:BelestiY/UIAPIAutomationForReactNodeJsPlusApp.git
    cd YourRepoName
 
 2. Install backend dependencies and start backend server:
