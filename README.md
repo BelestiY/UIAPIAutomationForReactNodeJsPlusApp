@@ -54,36 +54,36 @@ The goal is to provide a full-stack sample application with end-to-end functiona
 ## Setup Instructions
 
 1. Clone the repository:
-   - **git clone git@github.com:BelestiY/UIAPIAutomationForReactNodeJsPlusApp.git
+   - git clone git@github.com:BelestiY/UIAPIAutomationForReactNodeJsPlusApp.git
 
 2. Install backend dependencies and start backend server:
-- **cd backend
-- **npm install
-- **npm start
+- cd backend
+- npm install
+- npm start
 
 3. Install frontend dependencies and start frontend app:
-- **cd frontend
-- **npm install
-- **npm start
+- cd frontend
+- npm install
+- npm start
 
 4. Run tests from the root project directory:
-- **Run UI tests:
+- Run UI tests:
 mvn clean test -Dcucumber.filter.tags="@ui" -Dtest=runner.UITestRunner
 
-- **Run API tests:
+- Run API tests:
 mvn clean test -Dcucumber.filter.tags="@api" -Dtest=runner.ApiTestRunner
 
-- **Run all tests:
+- Run all tests:
 mvn clean test
 
 ## Assumptions and Limitations
-- ** The backend server must be running before executing UI or API tests.
-- ** Tests assume default URLs and ports for frontend and backend (can be customized in config).
-- ** Tests currently cover basic functional flows; no performance or security tests included.
-- ** API tests use REST-assured Java framework; UI tests use Playwright with Java bindings.
+- The backend server must be running before executing UI or API tests.
+- Tests assume default URLs and ports for frontend and backend (can be customized in config).
+- Tests currently cover basic functional flows; no performance or security tests included.
+- API tests use REST-assured Java framework; UI tests use Playwright with Java bindings.
 
 ## Contribution
-- **Feel free to raise issues or submit pull requests to improve the tests or add new features.
+- Feel free to raise issues or submit pull requests to improve the tests or add new features.
 
 ## Contact
-- **For questions or feedback, please contact belestibdu@gmail.com.
+- For questions or feedback, please contact belestibdu@gmail.com.
